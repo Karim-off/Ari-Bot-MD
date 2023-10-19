@@ -5,32 +5,21 @@ import axios from 'axios'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
 let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality   
-if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} Good Feeling - Flo Rida*`
+if (!text) throw `*🤔Que esta buscado? 🤔*\n*Ingrese el nombre del la canción*\n\n*Ejemplo:*\n#play lgante bar`
 try {
 const yt_play = await search(args.join(" "))
 let additionalText = ''
 if (command === 'play') {
-additionalText = 'audio'
+additionalText = 'audio 🔊'
 } else if (command === 'play2') {
-additionalText = 'video'}
-let captionvid = `⟣☘ *𝚃𝙸𝚃𝚄𝙻𝙾:* ${yt_play[0].title}
-⟣⏳ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${secondString(yt_play[0].duration.seconds)}
-⟣👤 *𝙰𝚄𝚃𝙾𝚁:* ${yt_play[0].author.name}
-⟣🔮 *𝙲𝙰𝙽𝙰𝙻:* ${yt_play[0].author.url}
-⟣🔗 *𝙻𝙸𝙽𝙺:* ${yt_play[0].url}
-⟣🚀 *_Enviando ${additionalText}, aguarde un momento．．．_*`
-await conn.sendMessage(m.chat, {
-text: captionvid,
-contextInfo: {
-externalAdReply: {
-title: yt_play[0].title,
-body: titulowm2,
-sourceUrl: yt_play[0].url,  
-thumbnailUrl: yt_play[0].thumbnail, 
-mediaType: 1,
-showAdAttribution: true,
-renderLargerThumbnail: true
-}}} , { quoted: m })
+additionalText = 'video 🎥'}
+conn.sendFile(m.chat, yt_play[0].thumbnail, 'thumbnail.jpg', `
+*${yt_play[0].title}*
+*⇄ㅤ     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     ↻*
+
+*⏰ Duración:* ${secondString(yt_play[0].duration.seconds)}
+*👉🏻Aguarde un momento en lo que envío su ${additionalText}*
+`.trim(), m)
 if (command == 'play') {	
 try {
 let q = '128kbps'
@@ -39,70 +28,75 @@ const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v))
 const dl_url = await yt.audio[q].download()
 const ttl = await yt.title
 const size = await yt.audio[q].fileSizeH
-await conn.sendMessage(m.chat, { audio: { url: dl_url }, mimetype: 'audio/mpeg', contextInfo: {
+await conn.sendMessage(m.chat, { audio: { url: dl_url }, mimetype: 'audio/mpeg' }, { quoted: m })
+/*await conn.sendMessage(m.chat, { audio: { url: dl_url }, mimetype: 'audio/mpeg', contextInfo: {
 externalAdReply: {
 title: ttl,
 body: "",
-thumbnailUrl: yt_play[0].thumbnail, 
+image: { url: yt_play[0].thumbnail }, 
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true
-}}} , { quoted: m })   
+}}} , { quoted: m })*/
 } catch {
 try {
 const dataRE = await fetch(`https://api.akuari.my.id/downloader/youtube?link=${yt_play[0].url}`)
 const dataRET = await dataRE.json()
-await conn.sendMessage(m.chat, { audio: { url: dataRET.mp3[1].url }, mimetype: 'audio/mpeg', contextInfo: {
+await conn.sendMessage(m.chat, { audio: { url: dataRET.mp3[1].url }, mimetype: 'audio/mpeg' }, { quoted: m })
+/*await conn.sendMessage(m.chat, { audio: { url: dataRET.mp3[1].url }, mimetype: 'audio/mpeg', contextInfo: {
 externalAdReply: {
 title: yt_play[0].title,
 body: "",
-thumbnailUrl: yt_play[0].thumbnail, 
+image: { url: yt_play[0].thumbnail }, 
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true
-}}} , { quoted: m })   
+}}} , { quoted: m }) */
 } catch {
 try {
 let humanLol = await fetch(`https://api.lolhuman.xyz/api/ytplay?apikey=${lolkeysapi}&query=${yt_play[0].title}`)
 let humanRET = await humanLol.json()
-await conn.sendMessage(m.chat, { audio: { url: humanRET.result.audio.link }, mimetype: 'audio/mpeg', contextInfo: {
+await conn.sendMessage(m.chat, { audio: { url: humanRET.result.audio.link }, mimetype: 'audio/mpeg' }, { quoted: m })
+/*await conn.sendMessage(m.chat, { audio: { url: humanRET.result.audio.link }, mimetype: 'audio/mpeg', contextInfo: {
 externalAdReply: {
 title: yt_play[0].title,
 body: "",
-thumbnailUrl: yt_play[0].thumbnail, 
+image: { url: yt_play[0].thumbnail }, 
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true
-}}} , { quoted: m })       
+}}} , { quoted: m })      */
 } catch {     
 try {
 let lolhuman = await fetch(`https://api.lolhuman.xyz/api/ytaudio2?apikey=${lolkeysapi}&url=${yt_play[0].url}`)    
 let lolh = await lolhuman.json()
 let n = lolh.result.title || 'error'
-await conn.sendMessage(m.chat, { audio: { url: lolh.result.link}, mimetype: 'audio/mpeg', contextInfo: {
+await conn.sendMessage(m.chat, { audio: { url: lolh.result.link }, mimetype: 'audio/mpeg' }, { quoted: m })
+/*await conn.sendMessage(m.chat, { audio: { url: lolh.result.link}, mimetype: 'audio/mpeg', contextInfo: {
 externalAdReply: {
 title: n,
 body: "",
-thumbnailUrl: yt_play[0].thumbnail, 
+image: { url: yt_play[0].thumbnail }, 
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true
-}}} , { quoted: m })   
+}}} , { quoted: m })   */
 } catch {   
 try {
 let searchh = await yts(yt_play[0].url)
 let __res = searchh.all.map(v => v).filter(v => v.type == "video")
 let infoo = await ytdl.getInfo('https://youtu.be/' + __res[0].videoId)
 let ress = await ytdl.chooseFormat(infoo.formats, { filter: 'audioonly' })
-await conn.sendMessage(m.chat, { audio: { url: ress.url }, mimetype: 'audio/mpeg', contextInfo: {
+await conn.sendMessage(m.chat, { audio: { url: ress.url }, mimetype: 'audio/mpeg' }, { quoted: m })
+/*await conn.sendMessage(m.chat, { audio: { url: ress.url }, mimetype: 'audio/mpeg', contextInfo: {
 externalAdReply: {
 title: __res[0].title,
 body: "",
-thumbnailUrl: yt_play[0].thumbnail, 
+image: { url: yt_play[0].thumbnail }, 
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true
-}}} , { quoted: m })   
+}}} , { quoted: m })   */
 //conn.sendMessage(m.chat, { audio: { url: ress.url }, fileName: __res[0].title + '.mp3', mimetype: 'audio/mp4' }, { quoted: m })  
 } catch {
 }}}}}
@@ -116,7 +110,7 @@ const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v))
 const dl_url = await yt.video[q].download()
 const ttl = await yt.title
 const size = await yt.video[q].fileSizeH
-await await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `╭━❰ *𝙷𝙰𝙲𝙷𝙸𝙺𝙾-𝙱𝙾𝚃-𝙼𝙳* ❱━⬣\n┃🚀 𝐓𝐈𝐓𝐔𝐋𝐎:\n┃ ${ttl}\n╰━❰ *𝙷𝙰𝙲𝙷𝙸𝙺𝙾-𝙱𝙾𝚃-𝙼𝙳* ❱━⬣`, thumbnail: await fetch(yt.thumbnail) }, { quoted: m })
+await await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `*🔰 Aqui esta tu video*\n*🔥 Titulo: ${ttl}`, thumbnail: await fetch(yt.thumbnail) }, { quoted: m })
 } catch {   
 try {  
 let mediaa = await ytMp4(yt_play[0].url)
@@ -129,15 +123,14 @@ let n = lolh.result.title || 'error'
 let n2 = lolh.result.link
 let n3 = lolh.result.size
 let n4 = lolh.result.thumbnail
-await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `╭━❰ *𝙷𝙰𝙲𝙷𝙸𝙺𝙾-𝙱𝙾𝚃* ❱━⬣\n┃🚀 𝐓𝐈𝐓𝐔𝐋𝐎:\n┃ ${n}\n╰━❰ *𝙷𝙰𝙲𝙷𝙸𝙺𝙾-𝙱𝙾𝚃* ❱━⬣`, thumbnail: await fetch(n4) }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `*🔰 Aqui esta tu video*\n*🔥 Titulo: ${n}`, thumbnail: await fetch(n4) }, { quoted: m })
 } catch {
 }}}    
 }} catch {
-handler.limit = 0
-}}
+}
+}
 handler.command = ['play', 'play2']
 handler.exp = 0
-handler.limit = 0
 export default handler
 
 async function search(query, options = {}) {
