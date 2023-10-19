@@ -1,2 +1,226 @@
-//play hecho por =Ofc-Yovani
-import _0x148318 from'node-fetch';import _0x4d84d1 from'axios';import _0x57f303 from'yt-search';import{youtubedl,youtubedlv2}from'@bochilteam/scraper';import _0x5053c8 from'ytdl-core';import{bestFormat,getUrlDl}from'../lib/y2dl.js';import _0x5a5ca6 from'../lib/ytdll.js';import _0x384b7d from'fs';let limit1=0x64,limit2=0x190,limit_a1=0x32,limit_a2=0x190;const handler=async(_0x3d693a,{conn:_0x1f2dda,command:_0x2b9e78,args:_0x33f541,text:_0x4908f5,usedPrefix:_0x50bb4c})=>{let _0x20fd9c={'key':{'participants':'0@s.whatsapp.net','remoteJid':'status@broadcast','fromMe':![],'id':'Halo'},'message':{'contactMessage':{'vcard':'BEGIN:VCARD\x0aVERSION:3.0\x0aN:Sy;Bot;;;\x0aFN:y\x0aitem1.TEL;waid='+_0x3d693a['sender']['split']('@')[0x0]+':'+_0x3d693a['sender']['split']('@')[0x0]+'\x0aitem1.X-ABLabel:Ponsel\x0aEND:VCARD'}},'participant':'0@s.whatsapp.net'};if(!_0x4908f5)return _0x1f2dda['reply'](_0x3d693a['chat'],'*[❗𝐈𝐍𝐅𝐎❗]\x20Ponga\x20el\x20nombre\x20de\x20su\x20video\x20o\x20musica\x20\x20\x0a\x0a\x20*ejemplo:*\x20\x0a\x20*'+(_0x50bb4c+_0x2b9e78)+'\x20miku\x20bot\x20md*',_0x20fd9c,_0x3d693a);try{_0x1f2dda['reply'](_0x3d693a['chat'],''+wait,_0x20fd9c,_0x3d693a);const _0x4e5384=await search(_0x33f541['join']('\x20'));let _0x5cb29b='';if(_0x2b9e78==='play'||_0x2b9e78=='audio'||_0x2b9e78=='play3'||_0x2b9e78=='playdoc'||_0x2b9e78=='musica'||_0x2b9e78=='sonido')_0x5cb29b='audio\x20🔊';else(_0x2b9e78==='play2'||_0x2b9e78=='video'||_0x2b9e78=='play4'||_0x2b9e78=='playdoc2'||_0x2b9e78=='peliculas'||_0x2b9e78=='pelis')&&(_0x5cb29b='video\x20🎥');const _0x3c877a=('乂✰\x20Y\x20O\x20U\x20T\x20U\x20B\x20E\x20✰乂\x0a⇄\x20\x20\x20\x20◁\x20\x20\x20ㅤ\x20\x20❚❚ㅤ\x20\x20\x20▷ㅤ\x20\x20\x20\x20↻\x0a乂✰\x20Autor:\x20'+_0x4e5384[0x0]['author']['name']+'\x20ღ\x0a乂✰\x20Published:\x20'+_0x4e5384[0x0]['ago']+'\x20ღ\x0a乂✰\x20Duration:\x20'+secondString(_0x4e5384[0x0]['duration']['seconds'])+'\x20ღ\x0a乂✰\x20Views:\x20'+(''+MilesNumber(_0x4e5384[0x0]['views']))+'\x20ღ')['trim']();await _0x1f2dda['sendMessage'](_0x3d693a['chat'],{'text':_0x3c877a,'contextInfo':{'externalAdReply':{'title':_0x4e5384[0x0]['title'],'body':packname,'thumbnailUrl':_0x4e5384[0x0]['thumbnail'],'mediaType':0x1,'showAdAttribution':!![],'renderLargerThumbnail':!![]}}},{'quoted':_0x3d693a});if(_0x2b9e78=='play'||_0x2b9e78=='audio'||_0x2b9e78=='musica'||_0x2b9e78=='sonido'){const _0x3830bf='128kbps',_0x27df7b=_0x4e5384[0x0]['url'],_0x1d56a4=await youtubedl(_0x27df7b)['catch'](async _0x9f44ff=>await youtubedlv2(_0x27df7b)),_0x435ded=await _0x1d56a4['audio'][_0x3830bf]['download'](),_0x1d37cb=await _0x1d56a4['title'],_0x1995a8=await _0x1d56a4?.['size'],_0x27f42e=_0x1995a8?.['replace']('MB','')?.['replace']('GB','')?.['replace']('KB',''),_0x1556d2=await getBuffer(_0x435ded),_0x39d7ba=_0x1556d2['byteLength'],_0xd38c5e=_0x39d7ba/0x400,_0xd8e330=_0xd38c5e/0x400,_0x512a55=_0xd8e330['toFixed'](0x2);if(_0x512a55>=limit_a2)return;if(_0x512a55>=limit_a1&&_0x512a55<=limit_a2){await _0x1f2dda['sendMessage'](_0x3d693a['chat'],{'document':_0x1556d2,'mimetype':'audio/mpeg','fileName':_0x1d37cb+'.mp3'},{'quoted':_0x3d693a});return;}else{await _0x1f2dda['sendMessage'](_0x3d693a['chat'],{'audio':_0x1556d2,'mimetype':'audio/mpeg','fileName':_0x1d37cb+'.mp3'},{'quoted':_0x3d693a});return;}}if(_0x2b9e78=='play3'||_0x2b9e78=='playdoc'){const _0x2bbab3='128kbps',_0x2707d0=_0x4e5384[0x0]['url'],_0x3fb4aa=await youtubedl(_0x2707d0)['catch'](async _0x23155e=>await youtubedlv2(_0x2707d0)),_0x5d145a=await _0x3fb4aa['audio'][_0x2bbab3]['download'](),_0x234b3d=await _0x3fb4aa['title'],_0x46a837=await _0x3fb4aa?.['size'],_0x3a8dd2=_0x46a837?.['replace']('MB','')?.['replace']('GB','')?.['replace']('KB',''),_0x3ea40c=await getBuffer(_0x5d145a),_0x57e4fa=_0x3ea40c['byteLength'],_0xd1aaaa=_0x57e4fa/0x400,_0x575468=_0xd1aaaa/0x400,_0x58299e=_0x575468['toFixed'](0x2);if(_0x58299e>=limit_a2)return;if(_0x58299e>=limit_a1&&_0x58299e<=limit_a2){await _0x1f2dda['sendMessage'](_0x3d693a['chat'],{'document':_0x3ea40c,'mimetype':'audio/mpeg','fileName':_0x234b3d+'.mp3'},{'quoted':_0x3d693a});return;}else{await _0x1f2dda['sendMessage'](_0x3d693a['chat'],{'document':_0x3ea40c,'mimetype':'audio/mpeg','fileName':_0x234b3d+'.mp3'},{'quoted':_0x3d693a});return;}}if(_0x2b9e78=='play2'||_0x2b9e78=='video'){const _0x4e5a2a='360',_0x1e70c5=_0x4e5a2a+'p',_0x570416=_0x4e5384[0x0]['url'],_0x1d687a=await youtubedl(_0x570416)['catch'](async _0x1e3538=>await youtubedlv2(_0x570416)),_0x1ed0b0=await _0x1d687a['video'][_0x1e70c5]['download'](),_0x3e6558=await _0x1d687a['title'],_0x5a3371=await _0x1d687a?.['size'],_0x1ce25b=_0x5a3371?.['replace']('MB','')?.['replace']('GB','')?.['replace']('KB',''),_0x28ac69=await getBuffer(_0x1ed0b0),_0x491b5d=_0x28ac69['byteLength'],_0xdf41a8=_0x491b5d/0x400,_0x4036d2=_0xdf41a8/0x400,_0x432921=_0x4036d2['toFixed'](0x2);if(_0x432921>=limit2)return;if(_0x432921>=limit1&&_0x432921<=limit2){await _0x1f2dda['sendMessage'](_0x3d693a['chat'],{'document':_0x28ac69,'mimetype':'video/mp4','fileName':_0x3e6558+'.mp4'},{'quoted':_0x3d693a});return;}else{await _0x1f2dda['sendMessage'](_0x3d693a['chat'],{'video':_0x28ac69,'mimetype':'video/mp4','fileName':_0x3e6558+'.mp4'},{'quoted':_0x3d693a});return;}}if(_0x2b9e78=='play4'||_0x2b9e78=='playdoc2'||_0x2b9e78=='peliculas'||_0x2b9e78=='pelis'){const _0x16edc7='360',_0x285809=_0x16edc7+'p',_0x5e5373=_0x4e5384[0x0]['url'],_0x2f0e22=await youtubedl(_0x5e5373)['catch'](async _0x39c827=>await youtubedlv2(_0x5e5373)),_0x86c3a0=await _0x2f0e22['video'][_0x285809]['download'](),_0x196bbc=await _0x2f0e22['title'],_0x5b8fec=await _0x2f0e22?.['size'],_0x260f7d=_0x5b8fec?.['replace']('MB','')?.['replace']('GB','')?.['replace']('KB',''),_0xba2c96=await getBuffer(_0x86c3a0),_0x56aaac=_0xba2c96['byteLength'],_0x54701c=_0x56aaac/0x400,_0x3d9ce3=_0x54701c/0x400,_0x555408=_0x3d9ce3['toFixed'](0x2);if(_0x555408>=limit2)return;if(_0x555408>=limit1&&_0x555408<=limit2){await _0x1f2dda['sendMessage'](_0x3d693a['chat'],{'document':_0xba2c96,'mimetype':'video/mp4','fileName':_0x196bbc+'.mp4'},{'quoted':_0x3d693a});return;}else{await _0x1f2dda['sendMessage'](_0x3d693a['chat'],{'document':_0xba2c96,'mimetype':'video/mp4','fileName':_0x196bbc+'.mp4'},{'quoted':_0x3d693a});return;}}}catch(_0x4d81b7){console['log'](_0x4d81b7);throw'*❌ʟᴏ\x20sᴇɴᴛɪᴍᴏs\x20sᴇ\x20ʜᴀ\x20ɢᴇɴᴇʀᴀᴅᴏ\x20ᴜɴ\x20ᴇʀʀᴏʀ\x20ᴠᴜᴇʟᴠᴇ\x20ɪɴᴛᴇɴᴛᴀʀ❌*';}};handler['help']=['play','play2']['map'](_0x3b0af9=>_0x3b0af9+'\x20<\x20busqueda\x20>'),handler['help']=['pla3','play4']['map'](_0x49c4b0=>_0x49c4b0+'\x20<\x20busqueda\x20>'),handler['tags']=['downloader'],handler['command']=/^(play|play2|play3|play4|audio|video|playdoc2|playdoc|musica|sonido|peliculas|pelis)$/i,handler['register']=!![],handler['premium']=!![];export default handler;async function search(_0x55108b,_0x1fb9d2={}){const _0x1a2397=await _0x57f303['search']({'query':_0x55108b,'hl':'es','gl':'ES',..._0x1fb9d2});return _0x1a2397['videos'];}function MilesNumber(_0x468690){const _0x2babff=/(\d)(?=(\d{3})+(?!\d))/g,_0x3245e7='$1.',_0xd67e6c=_0x468690['toString']()['split']('.');return _0xd67e6c[0x0]=_0xd67e6c[0x0]['replace'](_0x2babff,_0x3245e7),_0xd67e6c[0x1]?_0xd67e6c['join']('.'):_0xd67e6c[0x0];}function secondString(_0x351a4a){_0x351a4a=Number(_0x351a4a);const _0x43dc01=Math['floor'](_0x351a4a/(0xe10*0x18)),_0x1032e7=Math['floor'](_0x351a4a%(0xe10*0x18)/0xe10),_0x2dc7a6=Math['floor'](_0x351a4a%0xe10/0x3c),_0x392a33=Math['floor'](_0x351a4a%0x3c),_0x5ced4f=_0x43dc01>0x0?_0x43dc01+(_0x43dc01==0x1?'\x20día,\x20':'\x20días,\x20'):'',_0x33051f=_0x1032e7>0x0?_0x1032e7+(_0x1032e7==0x1?'\x20hora,\x20':'\x20horas,\x20'):'',_0x1e9dc1=_0x2dc7a6>0x0?_0x2dc7a6+(_0x2dc7a6==0x1?'\x20minuto,\x20':'\x20minutos,\x20'):'',_0x2979c9=_0x392a33>0x0?_0x392a33+(_0x392a33==0x1?'\x20segundo':'\x20segundos'):'';return _0x5ced4f+_0x33051f+_0x1e9dc1+_0x2979c9;}function bytesToSize(_0x4b5692){return new Promise((_0x2b64d4,_0x2dfb34)=>{const _0x62f53c=['Bytes','KB','MB','GB','TB'];if(_0x4b5692===0x0)return'n/a';const _0xf899a3=parseInt(Math['floor'](Math['log'](_0x4b5692)/Math['log'](0x400)),0xa);if(_0xf899a3===0x0)_0x2b64d4(_0x4b5692+'\x20'+_0x62f53c[_0xf899a3]);_0x2b64d4((_0x4b5692/0x400**_0xf899a3)['toFixed'](0x1)+'\x20'+_0x62f53c[_0xf899a3]);});}const getBuffer=async(_0x1aaa68,_0x4a5b4c)=>{_0x4a5b4c?_0x4a5b4c:{};const _0x318377=await _0x4d84d1({'method':'get','url':_0x1aaa68,'headers':{'DNT':0x1,'Upgrade-Insecure-Request':0x1},..._0x4a5b4c,'responseType':'arraybuffer'});return _0x318377['data'];};
+import fetch from "node-fetch"
+import yts from "yt-search"
+import ytdl from 'ytdl-core'
+import axios from 'axios'
+import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
+let handler = async (m, { conn, command, args, text, usedPrefix }) => {
+let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality   
+if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} Good Feeling - Flo Rida*`
+try {
+const yt_play = await search(args.join(" "))
+let additionalText = ''
+if (command === 'play') {
+additionalText = 'audio'
+} else if (command === 'play2') {
+additionalText = 'video'}
+let captionvid = `⟣☘ *𝚃𝙸𝚃𝚄𝙻𝙾:* ${yt_play[0].title}
+⟣⏳ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${secondString(yt_play[0].duration.seconds)}
+⟣👤 *𝙰𝚄𝚃𝙾𝚁:* ${yt_play[0].author.name}
+⟣🔮 *𝙲𝙰𝙽𝙰𝙻:* ${yt_play[0].author.url}
+⟣🔗 *𝙻𝙸𝙽𝙺:* ${yt_play[0].url}
+⟣🚀 *_Enviando ${additionalText}, aguarde un momento．．．_*`
+await conn.sendMessage(m.chat, {
+text: captionvid,
+contextInfo: {
+externalAdReply: {
+title: yt_play[0].title,
+body: titulowm2,
+sourceUrl: yt_play[0].url,  
+thumbnailUrl: yt_play[0].thumbnail, 
+mediaType: 1,
+showAdAttribution: true,
+renderLargerThumbnail: true
+}}} , { quoted: m })
+if (command == 'play') {	
+try {
+let q = '128kbps'
+let v = yt_play[0].url
+const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v))
+const dl_url = await yt.audio[q].download()
+const ttl = await yt.title
+const size = await yt.audio[q].fileSizeH
+await conn.sendMessage(m.chat, { audio: { url: dl_url }, mimetype: 'audio/mpeg', contextInfo: {
+externalAdReply: {
+title: ttl,
+body: "",
+thumbnailUrl: yt_play[0].thumbnail, 
+mediaType: 1,
+showAdAttribution: true,
+renderLargerThumbnail: true
+}}} , { quoted: m })   
+} catch {
+try {
+const dataRE = await fetch(`https://api.akuari.my.id/downloader/youtube?link=${yt_play[0].url}`)
+const dataRET = await dataRE.json()
+await conn.sendMessage(m.chat, { audio: { url: dataRET.mp3[1].url }, mimetype: 'audio/mpeg', contextInfo: {
+externalAdReply: {
+title: yt_play[0].title,
+body: "",
+thumbnailUrl: yt_play[0].thumbnail, 
+mediaType: 1,
+showAdAttribution: true,
+renderLargerThumbnail: true
+}}} , { quoted: m })   
+} catch {
+try {
+let humanLol = await fetch(`https://api.lolhuman.xyz/api/ytplay?apikey=${lolkeysapi}&query=${yt_play[0].title}`)
+let humanRET = await humanLol.json()
+await conn.sendMessage(m.chat, { audio: { url: humanRET.result.audio.link }, mimetype: 'audio/mpeg', contextInfo: {
+externalAdReply: {
+title: yt_play[0].title,
+body: "",
+thumbnailUrl: yt_play[0].thumbnail, 
+mediaType: 1,
+showAdAttribution: true,
+renderLargerThumbnail: true
+}}} , { quoted: m })       
+} catch {     
+try {
+let lolhuman = await fetch(`https://api.lolhuman.xyz/api/ytaudio2?apikey=${lolkeysapi}&url=${yt_play[0].url}`)    
+let lolh = await lolhuman.json()
+let n = lolh.result.title || 'error'
+await conn.sendMessage(m.chat, { audio: { url: lolh.result.link}, mimetype: 'audio/mpeg', contextInfo: {
+externalAdReply: {
+title: n,
+body: "",
+thumbnailUrl: yt_play[0].thumbnail, 
+mediaType: 1,
+showAdAttribution: true,
+renderLargerThumbnail: true
+}}} , { quoted: m })   
+} catch {   
+try {
+let searchh = await yts(yt_play[0].url)
+let __res = searchh.all.map(v => v).filter(v => v.type == "video")
+let infoo = await ytdl.getInfo('https://youtu.be/' + __res[0].videoId)
+let ress = await ytdl.chooseFormat(infoo.formats, { filter: 'audioonly' })
+await conn.sendMessage(m.chat, { audio: { url: ress.url }, mimetype: 'audio/mpeg', contextInfo: {
+externalAdReply: {
+title: __res[0].title,
+body: "",
+thumbnailUrl: yt_play[0].thumbnail, 
+mediaType: 1,
+showAdAttribution: true,
+renderLargerThumbnail: true
+}}} , { quoted: m })   
+//conn.sendMessage(m.chat, { audio: { url: ress.url }, fileName: __res[0].title + '.mp3', mimetype: 'audio/mp4' }, { quoted: m })  
+} catch {
+}}}}}
+}  
+if (command == 'play2') {
+try {
+let qu = '360'
+let q = qu + 'p'
+let v = yt_play[0].url
+const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v))
+const dl_url = await yt.video[q].download()
+const ttl = await yt.title
+const size = await yt.video[q].fileSizeH
+await await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `╭━❰ *𝙷𝙰𝙲𝙷𝙸𝙺𝙾-𝙱𝙾𝚃-𝙼𝙳* ❱━⬣\n┃🚀 𝐓𝐈𝐓𝐔𝐋𝐎:\n┃ ${ttl}\n╰━❰ *𝙷𝙰𝙲𝙷𝙸𝙺𝙾-𝙱𝙾𝚃-𝙼𝙳* ❱━⬣`, thumbnail: await fetch(yt.thumbnail) }, { quoted: m })
+} catch {   
+try {  
+let mediaa = await ytMp4(yt_play[0].url)
+await conn.sendMessage(m.chat, { video: { url: mediaa.result }, fileName: `error.mp4`, caption: `_${wm}_`, thumbnail: mediaa.thumb, mimetype: 'video/mp4' }, { quoted: m })     
+} catch {  
+try {
+let lolhuman = await fetch(`https://api.lolhuman.xyz/api/ytvideo2?apikey=${lolkeysapi}&url=${yt_play[0].url}`)    
+let lolh = await lolhuman.json()
+let n = lolh.result.title || 'error'
+let n2 = lolh.result.link
+let n3 = lolh.result.size
+let n4 = lolh.result.thumbnail
+await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `╭━❰ *𝙷𝙰𝙲𝙷𝙸𝙺𝙾-𝙱𝙾𝚃* ❱━⬣\n┃🚀 𝐓𝐈𝐓𝐔𝐋𝐎:\n┃ ${n}\n╰━❰ *𝙷𝙰𝙲𝙷𝙸𝙺𝙾-𝙱𝙾𝚃* ❱━⬣`, thumbnail: await fetch(n4) }, { quoted: m })
+} catch {
+}}}    
+}} catch {
+handler.limit = 0
+}}
+handler.command = ['play', 'play2']
+handler.exp = 0
+handler.limit = 0
+export default handler
+
+async function search(query, options = {}) {
+const search = await yts.search({ query, hl: "es", gl: "ES", ...options });
+return search.videos};
+
+function MilesNumber(number) {
+const exp = /(\d)(?=(\d{3})+(?!\d))/g;
+const rep = "$1.";
+let arr = number.toString().split(".");
+arr[0] = arr[0].replace(exp, rep);
+return arr[1] ? arr.join(".") : arr[0]};
+
+function secondString(seconds) {
+seconds = Number(seconds);
+var d = Math.floor(seconds / (3600 * 24));
+var h = Math.floor((seconds % (3600 * 24)) / 3600);
+var m = Math.floor((seconds % 3600) / 60);
+var s = Math.floor(seconds % 60);
+var dDisplay = d > 0 ? d + (d == 1 ? " día, " : " días, ") : "";
+var hDisplay = h > 0 ? h + (h == 1 ? " hora, " : " horas, ") : "";
+var mDisplay = m > 0 ? m + (m == 1 ? " minuto, " : " minutos, ") : "";
+var sDisplay = s > 0 ? s + (s == 1 ? " segundo" : " segundos") : "";
+return dDisplay + hDisplay + mDisplay + sDisplay};
+
+function bytesToSize(bytes) {
+return new Promise((resolve, reject) => {
+const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
+if (bytes === 0) return 'n/a';
+const i = parseInt(Math.floor(Math.log(bytes) / Math.log(1024)), 10);
+if (i === 0) resolve(`${bytes} ${sizes[i]}`);
+resolve(`${(bytes / (1024 ** i)).toFixed(1)} ${sizes[i]}`)})};
+
+async function ytMp3(url) {
+return new Promise((resolve, reject) => {
+ytdl.getInfo(url).then(async(getUrl) => {
+let result = [];
+for(let i = 0; i < getUrl.formats.length; i++) {
+let item = getUrl.formats[i];
+if (item.mimeType == 'audio/webm; codecs=\"opus\"') {
+let { contentLength } = item;
+let bytes = await bytesToSize(contentLength);
+result[i] = { audio: item.url, size: bytes }}};
+let resultFix = result.filter(x => x.audio != undefined && x.size != undefined) 
+let tiny = await axios.get(`https://tinyurl.com/api-create.php?url=${resultFix[0].audio}`);
+let tinyUrl = tiny.data;
+let title = getUrl.videoDetails.title;
+let thumb = getUrl.player_response.microformat.playerMicroformatRenderer.thumbnail.thumbnails[0].url;
+resolve({ title, result: tinyUrl, result2: resultFix, thumb })}).catch(reject)})};
+
+async function ytMp4(url) {
+return new Promise(async(resolve, reject) => {
+ytdl.getInfo(url).then(async(getUrl) => {
+let result = [];
+for(let i = 0; i < getUrl.formats.length; i++) {
+let item = getUrl.formats[i];
+if (item.container == 'mp4' && item.hasVideo == true && item.hasAudio == true) {
+let { qualityLabel, contentLength } = item;
+let bytes = await bytesToSize(contentLength);
+result[i] = { video: item.url, quality: qualityLabel, size: bytes }}};
+let resultFix = result.filter(x => x.video != undefined && x.size != undefined && x.quality != undefined) 
+let tiny = await axios.get(`https://tinyurl.com/api-create.php?url=${resultFix[0].video}`);
+let tinyUrl = tiny.data;
+let title = getUrl.videoDetails.title;
+let thumb = getUrl.player_response.microformat.playerMicroformatRenderer.thumbnail.thumbnails[0].url;
+resolve({ title, result: tinyUrl, rersult2: resultFix[0].video, thumb })}).catch(reject)})};
+
+async function ytPlay(query) {
+return new Promise((resolve, reject) => {
+yts(query).then(async(getData) => {
+let result = getData.videos.slice( 0, 5 );
+let url = [];
+for (let i = 0; i < result.length; i++) { url.push(result[i].url) }
+let random = url[0];
+let getAudio = await ytMp3(random);
+resolve(getAudio)}).catch(reject)})};
+
+async function ytPlayVid(query) {
+return new Promise((resolve, reject) => {
+yts(query).then(async(getData) => {
+let result = getData.videos.slice( 0, 5 );
+let url = [];
+for (let i = 0; i < result.length; i++) { url.push(result[i].url) }
+let random = url[0];
+let getVideo = await ytMp4(random);
+resolve(getVideo)}).catch(reject)})};
