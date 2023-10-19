@@ -19,7 +19,7 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let str = `╭「 Gabi x Naye Bot 」
+let str = `╭「 LudmiBot 」
 │➯ *𝗛ᴏʟᴀ,➟${taguser}
 │➯ *𝙲𝚁𝙴𝙰𝙳𝙾𝚁: Ezequiel
 │➯ *𝙸𝙽𝙵𝙾: Wa.me/+51907183648
