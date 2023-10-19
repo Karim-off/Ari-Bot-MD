@@ -15,7 +15,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
   try {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
-    if (command === 'audio') {
+    if (command === 'play') {
       additionalText = 'audio 🔊';
     } else if (command === 'play2') {
       additionalText = 'video 🎥';
@@ -32,7 +32,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 ❏ 🔗 *Link:* ${yt_play[0].url}\n
 ❏ *_Enviando ${additionalText}, aguarde un momento．．．_*`.trim();
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
-    if (command == 'audio') {
+    if (command == 'play') {
     try {    
     const q = '128kbps';
     const v = yt_play[0].url;
