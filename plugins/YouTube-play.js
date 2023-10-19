@@ -15,9 +15,9 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
   try {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
-    if (command === 'play') {
+    if (command === 'jskskjs') {
       additionalText = 'audio 🔊';
-    } else if (command === 'play2') {
+    } else if (command === 'jsmskjs') {
       additionalText = 'video 🎥';
     }
     const texto1 = `*◉——⌈🔊 YOUTUBE PLAY 🔊⌋——◉*\n
