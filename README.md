@@ -137,7 +137,7 @@ npm start
 - HADES-BOT-OMEGA - TEAM NO SE HACE RESPONSABLE DEL USO, NUMEROS, PRIVACIDAD Y CONTENIDO MANDADO, USADO O GESTIONADO POR USTEDES O EL BOT
 
 
-## `CREADO POR OFC-YOVANI` 
-<a href="https://github.com/Karim-off"><img src="https://i.imgur.com/uKSNdLg.jpg" width="250" height="250" alt="YOVANI"/></a>
+## `CREADO POR OFC-KARIM.DZN` 
+<a href="https://github.com/Karim-off"><img src="https://i.imgur.com/uKSNdLg.jpg" width="250" height="250" alt="KARIM"/></a>
   
-`HADES-BOT-OMEGA - By YOVANI`
+`ADRIEL-BOT-MD: By KARIM`
