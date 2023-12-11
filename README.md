@@ -138,6 +138,6 @@ npm start
 
 
 ## `CREADO POR OFC-KARIM.DZN` 
-<a href="https://github.com/Karim-off"><img src="https://i.imgur.com/uKSNdLg.jpg" width="250" height="250" alt="KARIM"/></a>
+<a href=""><img src="https://i.imgur.com/uKSNdLg.jpg" width="250" height="250" alt="KARIM"/></a>
   
 `ADRIEL-BOT-MD: By KARIM`
