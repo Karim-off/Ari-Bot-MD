@@ -138,6 +138,15 @@ npm start
 
 
 ## `CREADO POR OFC-KARIM.DZN` 
-<a href=""><img src="https://github.com/Karim-off"width="250" height="250" alt="KARIM"/></a>
+
+[![GataNina-Li](https://https://github.com/Karim-off.png?size=100)](https://github.com/Karim-off) 
+
+### 🌟 DESARROLLADORES
+<a href="https://github.com/Karim-off/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=GataNina-Li/GataBot-MD" /> 
+</a>
+
+### 🌟 AGRADECIMIENTOS
+[![TheShadowBrokers1](https://github.com/BrunoSobrino.png?size=60)](https://github.com/BrunoSobrino)
   
 `ADRIEL-BOT-MD: By KARIM`
