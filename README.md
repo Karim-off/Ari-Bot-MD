@@ -139,8 +139,11 @@ npm start
 
 ## `CREADO POR OFC-KARIM.DZN` 
 
-[![GataNina-Li](https://https://github.com/Karim-off.png?size=100)](https://github.com/Karim-off) 
 
+### 🌟 CREADORA 
+
+[![Adriel-Bot](https://github.com/Karim-off.png?size=100)](https://github.com/Karim-off) 
+ 
 ### 🌟 DESARROLLADORES
 <a href="https://github.com/Karim-off/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=GataNina-Li/GataBot-MD" /> 
