@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems }) => {
 try {
-//await m.reply(`╭「 𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 」\n│➯ *(♦️)*PON EL TEXTO DEL AUDIO QUE QUIERES REPRODUCIR*\n︎╰───────────────╯\n\n\n╭「 𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 」\n│➯ *(♦️)*PUT THE TEXT OF THE AUDIO YOU WANT TO PLAY*\n︎╰───────────────╯`)
+//await m.reply(`╭「 𝐀𝐃𝐑𝐈𝐄𝐋-𝐁𝐎𝐓 」\n│➯ *(♦️)*PON EL TEXTO DEL AUDIO QUE QUIERES REPRODUCIR*\n︎╰───────────────╯\n\n\n╭「 𝐀𝐃𝐑𝐈𝐄𝐋-𝐁𝐎𝐓 」\n│➯ *(♦️)*PUT THE TEXT OF THE AUDIO YOU WANT TO PLAY*\n︎╰───────────────╯`)
 let pp = imagen6
 //let vn = './Plugins/Audios/menu.mp3'
 let img = await(await fetch('https://imgur.com/a/Z2X0lCN.jpg')).buffer()
@@ -23,10 +23,9 @@ let str = `╭「𝙿𝚁𝙴𝙲𝙸𝙾𝚂 𝙳𝙴 𝙶𝙴𝚁𝙰𝙻-𝙱
 │🍁 **𝙴𝚂𝚃𝙴 𝙴𝚂 𝙼𝙸 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙲𝙾𝙽𝚂𝚄𝙻𝚃𝙰𝚂:51935763050*
 │🍁 *𝚃𝙴𝙽𝙶𝙾 𝙳𝙸𝙵𝙴𝚁𝙴𝙽𝚃𝙴𝚂 𝙿𝚁𝙴𝙲𝙸𝙾𝚂 𝙿𝙰𝚁𝙰 𝙼𝙸𝚂 𝙱𝙾𝚃𝙲𝙸𝚃𝙾𝚂
 ︎╰───────────────╯
-🍁᭢━━━━━𝙶𝙴𝚁𝙰𝙻-𝙱𝙾𝚃━━━━᭥🍁᭢
+🍁᭢━━━━━𝙰𝙳𝚁𝙸𝙴𝙻-𝙱𝙾𝚃━━━━᭥🍁᭢
 ╭「𝐏𝐀𝐐𝐔𝐄𝐓𝐄 𝐃𝐄 𝐁𝐎𝐓𝐒 𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐀𝐃𝐎𝐑」
-│-𝙿𝙰𝚁𝙰 𝙴𝚂𝚃𝙴 𝙱𝙾𝚃 𝚃𝙴𝙽𝙶𝙾 𝙴𝙻 𝙱𝙾𝚃 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃𝙴- 𝙱𝙾𝚃 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻𝙸𝚉𝙰𝙳𝙾- 𝙱𝙾𝚃 𝙿𝚁𝙾𝙿𝙸𝙾𝚂
-│😼𝙱𝙾𝚃 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃𝙴:  Este bot lleva una personalizacion del creador es permanente y no tiene limite de grupos y te enseño a programarlo y aque tu mismo lo pongas en un numero
+│😼𝙱𝙾𝚃 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃𝙴:  Este bot lleva una personalizacion del creador es permanente y no tiene limite de grupos
 │😼𝙱𝙾𝚃 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻𝙸𝚉𝙰𝙳𝙾:  Este vendria ser un bot permanente de igual manera pero con lleva una personalizacion DE TU CLAN O TEAM O COMUNIDAD O E-SPORT Sin limite de grupos
 │😼𝙱𝙾𝚃 𝙿𝚁𝙾𝙿𝙸𝙾:  Este es un bot con permiso de venta aclaro que este bot es el unico que puede ser vendido y lleva la personalizacion que tu quieras mas veloz y sin limite de grupos
 ╰───────────────╯
