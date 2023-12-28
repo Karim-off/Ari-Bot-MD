@@ -10,45 +10,50 @@
 <img src="views/Pre Bot Publi.png" alt="GataBot-MD" width="900"/>
 </p>
 
-### ▢`🏓DUDAS SOBRE EL BOT?, CONTACTANOS🍁`
-<a href="http://wa.me/59176181985" target="blank"><img src="https://img.shields.io/badge/𝐀𝐃𝐑𝐈𝐄𝐋-𝐁𝐎𝐓-CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="http://wa.me/51935763050" target="blank"><img src="https://img.shields.io/badge/𝐆𝐞𝐫𝐚𝐥-𝐁𝐨𝐭-CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+### ▢`🏓𝘿𝙐𝘿𝘼𝙎 𝙎𝙊𝘽𝙍𝙀 𝙀𝙇 𝘽𝙊𝙏?🍁`
 
+<a href="https://api.whatsapp.com/send/?phone=59176181985&text&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-### ▢`⛄ GRUPO DE INFORMACIÓN DEL BOT Y ACTUALIZACIONES🧿`
+### ▢`🍀𝙎𝙄𝙂𝙐𝙀𝙉𝙊𝙎 𝙀𝙉 𝙉𝙐𝙀𝙎𝙏𝙍𝙊 𝙄𝙂🍀`
 
-<a href="https://chat.whatsapp.com/BCcSa1tr6796Ieu0GeimcV" target="blank"><img src="https://img.shields.io/badge/GRUPO_DE_SOPORTE-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00CB22&width=435&lines=Sígueme+En+Instagram;No+seas+malx%3A3;)
+<a href="https://www.instagram.com/usxr._.karim?igsh=OGY1bGE1d3EyY212" target="blank"><img src="https://img.shields.io/badge/INSTAGRAM_DEL_CREADOR-25D366?style=for-the-badge&logo=Instagram&logoColor=white" />
+</a>
+
+### ▢`🐼𝙂𝙍𝙐𝙋𝙊 𝘿𝙀 𝙑𝙀𝙉𝙏𝘼𝙎 𝘿𝙀𝙇 𝘽𝙊𝙏🐼`
+
+<a href="https://chat.whatsapp.com/KV5zRq4E5bP3xOBuUTSizP" target="blank"><img src="https://img.shields.io/badge/GRUPO_DE_SOPORTE-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </a>
 > LOS NUMEROS NO SON BOTS Y EN EL GRUPO NO SE PERMITEN NUMEROS-BOTS
 
-### ▢`—◉ 🤖 BOT OFICIAL 🤖`
+### ▢`—◉ 🤖𝘽𝙊𝙏 𝙊𝙁𝙄𝘾𝙄𝘼𝙇🤖`
 
 <a href="https://api.whatsapp.com/send/?phone=59176818194&text&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/prueba.1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
  > NO SPAMEAR COMANDOS
 
-### ▢`🖍 LETRA DEL BOT 🖍`
+### ▢`🖍𝙇𝙀𝙏𝙍𝘼 𝘿𝙀𝙇 𝘽𝙊𝙏🖍`
 - PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
 
 ### `—◉ 💡 EXPERIMENTA CON UNA IA PARA NUEVOS COMANDOS 💡`
 - PAGINA [Aqui](https://beta.openai.com/playground)
 
-### ▢`—◉ 🌌 ACTIVAR EN REPLIT 🌌`
+### ▢`—◉ 🌌𝘼𝘾𝙏𝙄𝙑𝘼𝙍 𝙀𝙉 𝙍𝙀𝙋𝙇𝙄𝙏🌌`
 
 [![Run on Repl.it](https://repl.it/badge/github/Nayee22/Pruebas)](https://repl.it/github/Naye22/Pruebas)
 
-### ▢`—◉ 💥 ACTIVAR EN KOYEB 💥`
+### ▢`—◉ 💥𝘼𝘾𝙏𝙄𝙑𝘼𝙍 𝙀𝙉 𝙆𝙊𝙔𝙀𝘽💥`
 
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/OFC-YOVANI/HATSUNE-MIKU&branch=master&name=Hatsunemikubot)
 
-### ▢`—◉ ✨ ACTIVAR EN HEROKU ✨`
+### ▢`—◉ ✨𝘼𝘾𝙏𝙄𝙑𝘼𝙍 𝙀𝙉 𝙃𝙀𝙍𝙊𝙆𝙐✨`
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OFC-YOVANI/HATSUNE-MIKU)
 
-### ▢`—◉ ⚙️ AJUSTES ⚙️`
+### ▢`—◉ ⚙️𝘼𝙅𝙐𝙎𝙏𝙀𝙎⚙️`
 - CLONAR EL REPOSITORIO [Aqui](https://github.com/OFC-YOVANI/HATSUNE-MIKU/fork)
 - CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/OFC-YOVANI/HATSUNE-MIKU/blob/master/config.js)
 
-### ▢`—◉ 👾 ACTIVAR EN TERMUX 👾
+### ▢`—◉ 👾𝘼𝘾𝙏𝙄𝙑𝘼𝙍 𝙀𝙉 𝙏𝙀𝙍𝙈𝙐𝙓👾
 PRIMERA OPCIÓN `
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
@@ -60,11 +65,11 @@ pkg update -y && pkg upgrade -y && pkg install -y bash && pkg install -y wget &&
 ```
 
 ```bash
-wget -O - https://raw.githubusercontent.com/GeralBot/prueba/master/install.sh | bash
+wget -O - https://raw.githubusercontent.com/Karim-off/Adriel-Bot-MD/master/install.sh | bash
 ```
 
 
-### ▢`—◉ 👾 ACTIVAR EN TERMUX 👾
+### ▢`—◉ 👾𝘼𝘾𝙏𝙄𝙑𝘼𝙍 𝙀𝙉 𝙏𝙀𝙍𝙈𝙐𝙓👾
 SEGUNDA OPCIÓN ` 
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
@@ -80,7 +85,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/GeralBot/prueba.git && cd prueba
+git clone https://github.com/Karim-off/Adriel-Bot-MD && cd prueba
 ```
 
 ```bash
@@ -99,25 +104,25 @@ npm update
 npm start
 ```
 
-### ▢`—◉ ✔️ ACTIVAR EN CASO DE DETENERSE EN TERMUX ✔️`
+### ▢`—◉ ✔️𝘼𝘾𝙏𝙄𝙑𝘼𝙍 𝙀𝙉 𝘾𝘼𝙎𝙊 𝘿𝙀 𝘿𝙀𝙏𝙀𝙉𝙀𝙍𝙎𝙀 𝙀𝙉 𝙏𝙀𝙍𝙈𝙐𝙓✔️`
 
 ### ▢`ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:`
 
 ```bash
-> cd HADES-BOT-OMEGA
+> cd Adriel-Bot-MD
 ```
 
 ```bash
 > npm start
 ```
 
-### ▢`—◉ 👽 OBTENER OTRO CODIGO QR EN TERMUX 👽`
+### ▢`—◉ 👽𝙊𝘽𝙏𝙀𝙉𝙀𝙍 𝙊𝙏𝙍𝙊 𝘾𝙊𝘿𝙄𝙂𝙊 𝙌𝙍 𝙀𝙉 𝙏𝙀𝙍𝙈𝙐𝙓👽`
  DETENER EL BOT DANDO CLICK EN EL SIMBOLO CTROL EN TERMUX MAS LA LETRA Z EN SU TECLADO MOVIL HASTA QUE SALGA ALGO EN VERDE SIMILAR A HADES-BOT-MD $`
 
 ### ▢`ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:`
 
 ```bash
-> cd HADES-BOT-OMEGA
+> cd Adriel-Bot-MD
 ```
 
 ```bash
@@ -128,13 +133,13 @@ npm start
 > npm start
 ```
 
-### ▢`—◉ 📝 NOTAS 📝`
+### ▢`—◉ 📝 𝙉𝙊𝙏𝘼𝙎 📝`
 - ES POSIBLE QUE EL BOT TENGA ALGUNAS FALLAS, SE IRAN SOLUCIONANDO CONFORME SE VAYAN DETECTANDO
 - SI VAS A EDITAR POR COMPLETO DEJA LOS CREDITOS DEL BOT 
 - EL BOT ES COMPARTIBLE CON WHATSAPP NORMAL O BUSINESS
 - ATENTO A LAS ACTUALIZACIONES QUE SE HAGAN EN ESTE REPOSITORIO
 - EL ADD Y EL KICK PUEDEN OCASIONAR QUE EL NUMERO SE VAYA A SOPORTE POR ELLO SE ACTIVA CON #enable restrict 
-- HADES-BOT-OMEGA - TEAM NO SE HACE RESPONSABLE DEL USO, NUMEROS, PRIVACIDAD Y CONTENIDO MANDADO, USADO O GESTIONADO POR USTEDES O EL BOT
+ADRIEL-BOT-MD NO SE HACE RESPONSABLE DEL USO, NUMEROS, PRIVACIDAD Y CONTENIDO MANDADO, USADO O GESTIONADO POR USTEDES O EL BOT
 
 
 ## ▢`CREADO POR OFC-KARIM.DZN` 
